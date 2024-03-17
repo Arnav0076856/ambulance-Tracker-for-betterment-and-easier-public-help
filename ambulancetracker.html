@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ambulance Tracker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #cfe8d5; /* Light green background */
+            margin: 0;
+            padding: 0;
+            color: #333; /* Default text color */
+            font-size: 18px; /* Increased text size */
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2, h3 {
+            text-align: center;
+            color: #ff0000; /* Red heading color */
+            border-bottom: 2px solid #ff0000; /* Border for headings */
+        }
+
+        h2 {
+            font-size: 24px; /* Increase size for h2 */
+        }
+
+        p {
+            line-height: 1.6;
+            font-style: italic; /* Italicized text */
+        }
+
+        #map {
+            width: 100%;
+            height: 400px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        .link-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ff0000; /* Red button color */
+            color: #333; /* Dark text color */
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        .link-btn:hover {
+            background-color: #cc0000; /* Darker red on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Ambulance Tracker</h1>
+        <button class="link-btn"><a href="#" class="link">Government Ambulance Service</a></button>
+        <button class="link-btn"><a href="#" class="link">Article on Ambulance Tracking Importance</a></button>
+        <button class="link-btn"><a href="https://www.example.com/ambulance-tracking-importance" class="link" target="_blank">Read More</a></button>
+        <p>Welcome to the <span class="highlight">Ambulance Tracker</span> web application. This tool allows you to track the real-time locations of ambulances operated by the government ambulance service.</p>
+        <p><span class="highlight">Ambulance tracking</span> is a critical aspect of emergency response systems, and it is the government's responsibility to ensure efficient and timely medical assistance to citizens in need. By implementing technologies like ambulance tracking, governments can improve emergency response times and save countless lives.</p>
+        <h2>How Ambulance Tracker Can Save Lives:</h2>
+        <ul>
+            <li>Provide citizens with access to real-time ambulance locations for faster emergency response.</li>
+            <li>Enable emergency response teams to efficiently dispatch the nearest available ambulance to the scene of an emergency.</li>
+            <li>Improve coordination between hospitals, emergency services, and other relevant stakeholders.</li>
+            <li>Collect data on emergency incidents and response times to identify areas for improvement in the healthcare system.</li>
+        </ul>
+        <p>For more information about ambulance services and related departments in India, you can visit the following official websites:</p>
+        <button class="link-btn"><a href="https://www.mohfw.gov.in/" class="link" target="_blank">Ministry of Health and Family Welfare</a></button>
+        <button class="link-btn"><a href="https://www.nhm.gov.in/" class="link" target="_blank">National Health Mission</a></button>
+        <button class="link-btn"><a href="https://www.nhp.gov.in/" class="link" target="_blank">National Health Portal</a></button>
+        <!-- Add more department buttons as needed -->
+        <div id="map"></div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
